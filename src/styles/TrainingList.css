@@ -1,0 +1,17 @@
+.task-item {
+display: flex;
+justify-content: space-between;
+border-bottom: #eee;
+}
+.delete-icon {
+    cursor: pointer;
+    color: red;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.task-item:hover .delete-icon {
+    opacity: 1;
+}
+.task-item:hover{
+    background-color: #e4e2da;
+}

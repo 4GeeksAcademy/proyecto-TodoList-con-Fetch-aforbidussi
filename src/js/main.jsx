@@ -7,12 +7,14 @@ import "bootstrap"
 
 // index.css'
 import '../styles/index.css'
+import '../styles/estructura.css'
+import '../styles/TrainingList.css'
 
 // components
-import Home from './components/Home';
+import TraininGym from './components/TraininGym';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    <TraininGym/>
   </React.StrictMode>,
 )
